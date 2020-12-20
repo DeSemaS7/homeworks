@@ -4,3 +4,4 @@
 2) crash.log, override.tf, override.tf.json, terraform.rc, .terraformrc - файлы с перечисленными именами
 3) *.tfstate.* - файлы в имени которых есть .tfstate. 
 4) *_override.tf, *_override.tf.json - все файлы, имена которых оканчиваются на _override.tf или _override.tf.json
+5) так же исключаются все файлы из директории .terraform/
