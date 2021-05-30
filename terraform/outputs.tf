@@ -8,8 +8,8 @@ output "AWS_region_id" {
   value = data.aws_region.current.id
 }
 output "EC2_private_ip" {
-value =aws_instance.test.private_ip
+value =aws_instance.test.*.private_ip
 }
 output "EC2_subnetwork_id" {
-value = aws_instance.test.subnet_id
+value = aws_instance.test.*.subnet_id
 }
